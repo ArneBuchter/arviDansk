@@ -32,6 +32,7 @@
     text-decoration: none;
     color: rgb(204, 203, 214);;
 }
+
 .nav__link:hover{
     color: white;
 }

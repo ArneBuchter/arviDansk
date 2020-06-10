@@ -1,15 +1,18 @@
 import React from 'react';
 import './Navbar.modules.css'
+import NavLink from './Nav-link';
 
 export default () => (
     <nav className="nav">
         <a href="https://arvi.dk" target="blank" className="nav__logo">arvi</a>
         <ul>
-            <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
-            <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
-            <li className="nav__item"><a href="#skills" className="nav__link">Skills</a></li>
-            <li className="nav__item"><a href="#portfolio" className="nav__link">Portfolio</a></li>
-            <li className="nav__item"><a href="#about" className="nav__link">Contact</a></li>
+            <NavLink title="About" href="#about" />
+            <NavLink title="Prices" href="#prices" />
+            <NavLink title="My work" href="#mywork" />
+            <NavLink title="Support" href="#support" />
+            <NavLink title="Marketing" href="#marketing" />
+            <NavLink title="Facebook" href="#facebook" />
+            <NavLink title="Contact" href="#contact" />
         </ul>
     </nav>
 )

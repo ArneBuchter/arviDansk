@@ -8,11 +8,14 @@
 }
 
 .index-hero_heading{
+    font-size: 2rem;
+    font-family: 'ubuntu';
     text-align: center;
     margin: 0;
 }
 
 .index-hero_titel{
+    font-family: 'ubuntu';
     margin-left: 15vw;
     font-size: 1.2rem;
     text-align: center;
