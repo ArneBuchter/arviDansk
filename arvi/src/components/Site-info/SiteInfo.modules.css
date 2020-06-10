@@ -1,0 +1,29 @@
+.description__link{
+    font-family: 'ubuntu';
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.description{
+    margin: 5rem 0 0 17%;
+    border-left: 3px solid red;
+} 
+.description__heading{
+    color: black;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: 1rem;
+}
+.description__text{
+    color: gray;
+    width: 155px;
+    margin: 0;
+    padding-left: 1rem;
+}

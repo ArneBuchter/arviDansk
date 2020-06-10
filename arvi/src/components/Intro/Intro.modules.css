@@ -1,0 +1,24 @@
+.index-hero_profileimg{
+    margin: 10rem auto 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px gray;
+    object-fit: cover;
+}
+
+.index-hero_heading{
+    text-align: center;
+    margin: 0;
+}
+
+.index-hero_titel{
+    margin-left: 15vw;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.index-hero_color{
+    color: red;
+}
