@@ -1,0 +1,19 @@
+.index-hero{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./storebaelt.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: 500ms ease-in-out;
+    box-sizing: border-box;
+}
