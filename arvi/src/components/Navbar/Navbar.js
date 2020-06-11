@@ -11,7 +11,6 @@ export default () => (
             <NavLink title="My work" href="#mywork" />
             <NavLink title="Support" href="#support" />
             <NavLink title="Marketing" href="#marketing" />
-            <NavLink title="Facebook" href="#facebook" />
             <NavLink title="Contact" href="#contact" />
         </ul>
     </nav>

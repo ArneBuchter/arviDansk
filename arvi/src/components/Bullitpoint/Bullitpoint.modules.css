@@ -1,0 +1,53 @@
+.bullit__wrapper{
+    color: red;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bullit__link{
+    text-decoration: none;
+    color: red;
+}
+
+.bullit__text{
+    color: black;
+}
+
+
+.bullit__arrow{
+    width: 5%;            
+}
+
+.bullit__heading{
+    margin: 1rem 0 0 0;
+    color: red;
+}
+
+.bullit__cirkel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    border: solid 2px red;
+}
+
+.bullit__img{
+    width: 60%;
+}
+
+
+@media screen and (min-width: 1000px){
+
+    .bullit{
+        width: 20vw;
+    }
+
+    .bullit__heading{
+        margin: 1.5rem 0 0 0;
+    }
+}

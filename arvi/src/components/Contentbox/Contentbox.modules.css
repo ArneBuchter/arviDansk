@@ -1,0 +1,12 @@
+.contentbox{
+    position: relative;
+    padding: 12rem 0 5rem 0;
+}
+
+.content__wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

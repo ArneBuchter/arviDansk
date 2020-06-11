@@ -7,7 +7,7 @@ import Image from './arne.jpg';
 export default () => (
     <div className="relative">
         <div className="index-hero" id="home">
-            <Intro src={Image} alt="Arne Emil Buchter" firsname="Arne" middlename="Emil" sirname="Buchter" title="Need a new website" href="#about" />
+            <Intro src={Image} alt="Arne Emil Buchter" firsname="Arne" middlename="Emil" sirname="Buchter" title="Need a new website" href="#prices" />
         </div>
         <SiteInfo href="#about" id="welcome" name="Welcome" text="Need a new website?" />
     </div>
