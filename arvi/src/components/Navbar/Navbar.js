@@ -6,9 +6,9 @@ export default () => (
     <nav className="nav">
         <a href="https://arvi.dk" target="blank" className="nav__logo">arvi</a>
         <ul>
-            <NavLink title="About" href="#about" />
             <NavLink title="Prices" href="#prices" />
-            <NavLink title="My work" href="#mywork" />
+            <NavLink title="What we do" href="#services" />
+            <NavLink title="Portfolio" href="#" />
             <NavLink title="Support" href="#support" />
             <NavLink title="Marketing" href="#marketing" />
             <NavLink title="Contact" href="#contact" />

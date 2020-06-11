@@ -1,0 +1,16 @@
+.services{
+    font-family: 'ubuntu';
+    position: relative;
+    padding: 11rem 0;
+    justify-self: center;
+    margin: 2rem;
+    padding: 2rem;
+    width: 250px;
+    background-color: rgba(240, 240, 240, 0.7);
+    box-shadow: 10px 0 5px -2px #888;
+    border-radius: 3px;
+}
+
+.services__heading{
+    color: red;
+}

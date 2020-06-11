@@ -1,0 +1,20 @@
+.support{
+    position: relative;
+    padding: 10rem 0 2rem 0;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-family: 'ubuntu';
+    z-index: 0;
+}
+
+.support__heading{
+    color: red;
+    width: 90%;
+    margin: auto;
+    font-size: 3rem;
+}
+
+.support__text{
+    width: 90%;
+    margin: 0.5rem auto;
+}

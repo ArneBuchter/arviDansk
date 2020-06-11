@@ -3,12 +3,14 @@
     text-decoration: none;
     color: black;
     text-align: left;
+    outline: none;
 }
 
 .absolute{
     position: absolute;
     top: 0;
     left: 0;
+    width: 270px;
 }
 
 .description{
@@ -23,7 +25,6 @@
 }
 .description__text{
     color: gray;
-    width: 155px;
     margin: 0;
     padding-left: 1rem;
 }

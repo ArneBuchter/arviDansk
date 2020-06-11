@@ -1,6 +1,8 @@
 .contentbox{
     position: relative;
-    padding: 12rem 0 5rem 0;
+    padding: 8rem 0 2rem 0;
+    background-color: rgb(240, 240, 240);
+    font-family: 'ubuntu';
 }
 
 .content__wrapper{
