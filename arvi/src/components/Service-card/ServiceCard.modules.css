@@ -14,3 +14,10 @@
 .services__heading{
     color: red;
 }
+
+@media screen and (max-width: 330px){
+    .services{
+        width: 200px;
+        margin: 2rem 1rem;
+    }
+}

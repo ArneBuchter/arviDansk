@@ -1,0 +1,33 @@
+.header{
+    display: none;
+}
+
+@media screen and (max-width: 999px){
+    .header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(240, 240, 240, 0.8); */
+        background-color: red;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        height: 40px;
+        z-index: 3;
+        box-sizing: border-box;
+    }
+
+    .header__link{
+        text-decoration: none;
+        border-left: 1px solid white;
+        display: flex;
+        justify-content: center;
+    }
+    .header__link:first-child{
+        border-left: none;
+    }
+    .header__img{
+        width: 40%;
+    }
+}

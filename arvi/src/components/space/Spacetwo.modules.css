@@ -1,0 +1,22 @@
+.spacetwo{
+    height: 20rem;
+    background-color: rgb(240, 240, 240);
+}
+
+@media screen and (min-width: 768px){
+    .spacetwo{
+        height: 5rem;  
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .spacetwo{
+        display: none;  
+    }
+}
+
+@media screen and (max-width: 330px){
+    .spacetwo{
+        height: 25rem;      
+    }
+}

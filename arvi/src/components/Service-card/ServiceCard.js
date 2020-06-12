@@ -3,9 +3,9 @@ import './ServiceCard.modules.css';
 
 export default function NavLink({ heading, text }) {
     return (
-        <section class="services">
-            <h2 class="services__heading">{heading}</h2>
-            <p class="services__text">{text}</p>
+        <section className="services">
+            <h2 className="services__heading">{heading}</h2>
+            <p className="services__text">{text}</p>
         </section>
     )
 }

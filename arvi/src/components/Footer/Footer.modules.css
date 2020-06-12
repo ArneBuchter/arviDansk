@@ -1,0 +1,43 @@
+.footer{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr auto;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    font-family: 'ubuntu';
+}
+.footer__address-box{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footer__name{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.footer__address{
+    font-style: normal;
+}
+
+.footer__city{
+    font-style: normal;
+}
+
+.footer__contact{
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footer__email{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__copy{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+}

@@ -4,9 +4,9 @@ import SiteInfo from '../Site-info/SiteInfo';
 import ServiceCard from '../Service-card/ServiceCard';
 
 export default () => (
-    <section className="relative">  
+    <section className="relative" id="services">  
         <div className="bgimg"></div>
-        <div className="Service__wrapper" id="services">
+        <div className="Service__wrapper">
             <ServiceCard heading="Websites" text="Websites span over a big pallete of things, from a small bussiness shopwindow to huge platforms. No task is to small or to big for us, as we can easily scale our taskforce to meet your wishes " />
             <ServiceCard heading="Webshops" text="We have different ways of making you a great webshop. our sites are build from templates and cms systems to plain code from zero. The method of choise depends on your needs. Lets have a chat" />
             <ServiceCard heading="Shopify" text="A great way to get online quick and all the features you can wish for to make an online store, with lost of awesome built in marketing feature" />

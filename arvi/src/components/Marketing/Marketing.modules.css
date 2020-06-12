@@ -1,0 +1,54 @@
+.relative{
+    position: relative;
+    z-index: 1;
+    font-family: 'ubuntu';
+}
+
+.marketing__bgimg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.85; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./marketing.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: 500ms ease-in-out;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}
+
+.marketing__wrapper{    
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    top: 12rem;
+    border-radius: 15px;
+    border: solid 1px grey;
+    background-color: rgba(240, 240, 240, 0.7);
+    transition: ease 500ms;
+}
+
+.marketing__heading{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.marketing__text{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1000px){
+    .marketing__wrapper{ 
+        width: 70%;
+        left: 50%;
+        margin-left: -35%;
+        top: 14rem;
+    }
+}
