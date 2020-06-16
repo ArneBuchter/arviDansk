@@ -24,11 +24,8 @@
 }
 
 .marketing__wrapper{    
-    position: absolute;
     width: 90%;
-    left: 50%;
-    margin-left: -45%;
-    top: 12rem;
+    margin: 12rem auto 5rem auto; 
     border-radius: 15px;
     border: solid 1px grey;
     background-color: rgba(240, 240, 240, 0.7);
@@ -42,13 +39,4 @@
 
 .marketing__text{
     padding: 1rem;
-}
-
-@media screen and (min-width: 1000px){
-    .marketing__wrapper{ 
-        width: 70%;
-        left: 50%;
-        margin-left: -35%;
-        top: 14rem;
-    }
 }

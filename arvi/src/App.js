@@ -20,7 +20,7 @@ function App() {
            <Hero />
            <Contentbox />
            <Services />
-           <Space />
+    {/*        <Space /> */}
            <Support />
            <Marketing />
            <Spacetwo />

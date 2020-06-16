@@ -3,7 +3,7 @@
     z-index: 1;
 }
 
-.bgimg{
+.bgimg-service{
     width: 100%;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("./computermand.jpg");
-    height: 100vh;
+    min-height: 120vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -23,11 +23,8 @@
 }
 
 .Service__wrapper{    
-    position: absolute;
     width: 90%;
-    left: 50%;
-    margin-left: -45%;
-    top: 10rem;
+    margin: 10rem auto 2rem auto;
     background-color: transparent;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
