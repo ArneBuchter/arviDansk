@@ -5,6 +5,7 @@ export default function NavLink({ heading, text, href, img, imgAlt, src, alt }) 
     return (
     <section className="bullit">
         <a href={href} className="bullit__link">
+            <p></p>
             <div className="bullit__wrapper">
                 <div className="bullit__cirkel">
                     <img id="bullit-img" className="bullit__img" src={img} alt={imgAlt} />
