@@ -8,7 +8,7 @@ export default () => (
         <ul>
             <NavLink title="Prices" href="#prices" />
             <NavLink title="What we do" href="#services" />
-            <NavLink title="Portfolio" href="#" />
+            <NavLink title="Portfolio" href="https://blissful-almeida-9daaba.netlify.app/" />
             <NavLink title="Support" href="#support" />
             <NavLink title="Marketing" href="#marketing" />
             <NavLink title="Contact" href="#contact" />
