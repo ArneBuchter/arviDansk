@@ -9,8 +9,8 @@ export default () => (
             <address className="zip-city">4400 Kalundborg</address>
         </section>
         <section className="footer__contact">
-            <a href="mailto:arne@arvi.dk" className="footer__email">E-mail: arne@arvi.dk</a>
-            <p className="footer__phone">tel: (+45) 27 14 30 40</p>
+            <a href="mailto:arne@arvi.dk" className="footer__email">arne@arvi.dk</a>
+            <p className="footer__phone">(+45) 27 14 30 40</p>
         </section>
         <section className="footer__copy">
             <p>copyright &copy; 2020 Arne Emil Buchter</p>
