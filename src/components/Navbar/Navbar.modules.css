@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 1000px){
     .nav{
-        font-family: 'Ubuntu';
+        font-family: 'Ubuntu', sans-serif;
         position: fixed;
         display: flex;
         flex-direction: column;
