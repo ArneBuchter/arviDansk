@@ -4,7 +4,7 @@ import './Footer.modules.css';
 export default () => (
     <footer className="footer" id="contact">
         <section className="footer__address-box">
-            <h2 className="footer__name">arvi</h2>
+            <h2 className="footer__name">Arvi ApS</h2>
             <address className="footer__address">Agervej 25</address>
             <address className="zip-city">4400 Kalundborg</address>
         </section>
