@@ -8,11 +8,11 @@ import support from './support.png';
 
 export default () => (
     <section className="contentbox">
-        <SiteInfo href="#prices" id="prices" name="Prices" text="Pricing solutions" />
+        <SiteInfo href="#prices" id="prices" name="Priser" text="Få et godt tilbud" />
         <section className="content__wrapper">
-            <Bullitpoint heading="BY THE HOUR" text="I charge 600 DKK or 82 EUR This is the price I use to calculate my offers for your individual request" img={hourglas} imgAlt={hourglas} />
-            <Bullitpoint heading="TEMPLATES" text="I have a nice catalog with different templates to choose from call me to know more" img={templates} imgAlt={templates} />
-            <Bullitpoint heading="SUPPORT" text="When it comes to support, I have different standard packages to fullfill your needs call me to se what fits you" img={support} imgAlt={support} />
+            <Bullitpoint heading="Template" text="Vi tilbyder både produkter med abonnement og engangsbeløb. Derudover kan vi naturligvis også skræddersy din hjemmeside efter dit eget ønske." img={hourglas} imgAlt={hourglas} />
+            <Bullitpoint heading="Arvi Ready" text="Få dig en ny, tidssvarende og Teknisk Seo optimeret hjemmeside fra kun 900 kroner i oprettelese og 300 kroner om måneden." img={templates} imgAlt={templates} />
+            <Bullitpoint heading="Niche Medie" text="Er du journalist og ønsker du at starte et niche medie med både åben side og betalingsside så læs mere her." img={support} imgAlt={support} />
         </section>
     </section>
 )

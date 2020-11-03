@@ -7,14 +7,14 @@ export default () => (
     <section className="relative" id="services">  
         <div className="bgimg-service">
             <div className="Service__wrapper">
-                <ServiceCard heading="Websites" text="Websites span over a big pallete of things, from a small bussiness shopwindow to huge platforms. No task is to small or to big for us, as we can easily scale our taskforce to meet your wishes " />
-                <ServiceCard heading="Webshops" text="We have different ways of making you a great webshop. our sites are build from templates and cms systems to plain code from zero. The method of choise depends on your needs. Lets have a chat" />
-                <ServiceCard heading="Shopify" text="A great way to get online quick and all the features you can wish for to make an online store, with lost of awesome built in marketing feature" />
-                <ServiceCard heading="CMS Systems" text="We prefer using Contentful, but can work with both Wordpress and Drupal. We can work with templates of your choise." />
-                <ServiceCard heading="Apps" text="Do you need an app for your company? If you can think it, we can build it. But your app doesn't have to revolutionize the world. A lot of companies make an app to market them selves or sell their products." />
-                <ServiceCard heading="Full service" text="We are able to take from zero to 100. You can come in empty handed and walk out fully equiped. We can mannage design, developement, adverticing, support and the list goes on. We can be the only partner you need on the internet." />
+                <ServiceCard heading="Websider" text="Vi tilbyder både hjemmesider vha templates, templates med abonnement og naturligvis bygget fra bunden." />
+                <ServiceCard heading="Webshops" text="Webshops er for mange forretninger hele grundlaget for at eksistere. Derfor vil vi gerne give dig en stærk løsning, der vinder over konkurrenterne." />
+                <ServiceCard heading="Shopify" text="Shopify er et stærkt værktøj, der både kan stå alene som shop og bruges sammen med andre services som f.eks. Amazon." />
+                <ServiceCard heading="CMS" text="CMS er det sted du skriver dit indhold. Vi bruger både Contentful og Cockpit til  denne opgave. Vi prøver at komme væk fra wordpress, som er ved at være ret forældet." />
+                <ServiceCard heading="Apps" text="Du kan godt få en app gennem Arvi. Vi har størst erfaring med at lave PWAer, som er en app der ikke fylder så meget og kan downloades direkte fra din hjemmeside." />
+                <ServiceCard heading="Full service" text="Da vi har en del samarbejdspartnere, er vi i stand til at tage dig fra 0% til 100% Det vil sige at du bare fortæller os hvad du ønsker og så klarer vi resten." />
             </div>
         </div>
-        <SiteInfo href="#services" id="services" name="What we do" text="We build websites and apps" />
+        <SiteInfo href="#services" id="services" name="Om os" text="Vi elsker at programmere" />
     </section>
     )

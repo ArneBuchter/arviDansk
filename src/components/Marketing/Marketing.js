@@ -7,18 +7,17 @@ export default () => (
     <section className="relative" id="marketing">  
         <div className="marketing__bgimg">
             <div className="marketing__wrapper">
-                <h2 className="marketing__heading">Ask how much you earn</h2>
+                <h2 className="marketing__heading">Spørg om hvad du tjener</h2>
                 <p className="marketing__text">
-                    Online presence matters Do you remember the last time you opened up a newspaper to find a carpender or a plumber?
-                    You don't! Today you search for everything you need online. If this is what you do I can guarantee you are not the only one.
-                    the vast majority of new business relations are made online these days.
-                    Our main competence is building websites and apps, but through very competent partners we offer high quality online campains 
-                    and SEO (search Engine Optimizing). Marketing is where you as a business needs to think differently. If you blindly take 
-                    the cheapest offer, it just might be throwing money out the window. You need to look at what you get in return. Also called
-                    ROI (Return Of Investment). When making campaigns online it is very easy to know what your ROI is. Lets talk if you want to know more
+                    Online tilstedeværelse er vigtigt. Kan du huske sidste gang, du åbnede en avis for at finde en tømrer eller en vvs'er?
+                    Nej vel! Idag søger du efter alt online og det er ikke længere ny viden at alle andre gør det samme.
+                    Idag er internettet stedet hvor virksomheder finder nye partnere, kunder og andre alliancer. 
+                    Vores hovedkompetence er at bygge hjemmesider og webaps og vi vil med det samme gøre det klart at det ikke er os der laver din online markedsføring,
+                    men en af vores samarbejdspartnere. Dog sørger vi altid for at vores hjemmesider, på forhånd er toptunet til SEO. Det betyder at du som kunde
+                    har et forspring i forhold til dine konkurrenter.
                 </p>
             </div>
         </div>
-        <SiteInfo href="#marketing" id="marketing" name="Marketing" text="Ask not what you pay" />
+        <SiteInfo href="#marketing" id="marketing" name="Marketing" text="Spørg ikke hvad det koster" />
     </section>
     )

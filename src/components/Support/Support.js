@@ -6,10 +6,9 @@ export default () => (
     <section className="support">
         <h2 className="support__heading">Support</h2>
         <p className="support__text">
-            Support can be whatever you need. we have different support models to suit your needs. 
-            We can mannage your Office 365, your hosting, your backup, make sure your site is always online, track your visitors,
-            your marketing campaigns, if you have other wishes we or our partners can handle your request. 
-            In other words: Lets take care of your www activities, and give you more time ot take care of what you do best. 
+            Support kan være lige det du har behov for. Med vores netværk af samarbejdspartnere, er der ikke en opgave vi ikke kan løse.
+            Vi har både standard løsninger og løsninger der kan strikkes sammen efter dit behov. Med andre ord vil vi gerne være din online partner, 
+            så I kan koncentrere jer om det I er bedst til.
         </p>
         <SiteInfo href="#support" id="support" name="Support" text="Lets do your www" />
     </section>

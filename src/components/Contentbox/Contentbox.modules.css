@@ -12,3 +12,15 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.linkbox{
+    width: 100%;
+    text-align: center;
+}
+
+.link{
+    width: 200px;
+    margin: auto;
+    color: #8C0C00;
+    text-decoration: none;
+}
