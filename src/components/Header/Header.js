@@ -1,20 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.modules.css';
 import HeaderLink from './Header-link';
-import Home from './home.svg';
-import Prices from './price.svg';
-import Services from './services.svg';
-import Support from './support.svg';
-import Marketing from './marketing.svg';
-import Contact from './contact.svg'
+import Navbar from '../../components/Navbar/Navbar';
 
 export default () => (
+    useEffect(() => {
+        function OpenCloseMenu() {
+            if(document.querySelector('#menu').innerText == 'Menu'){
+                document.querySelector('.nav').className = 'open'
+                document.querySelector('#menu').innerHTML = 'Luk Menu'
+            }else{
+                document.querySelector('.open').className = 'nav'
+                document.querySelector('#menu').innerHTML = 'Menu'
+            }
+        }
+    
+        document.querySelector('#menu').addEventListener('click', OpenCloseMenu);
+      }, []),
+
     <header className="header">
-        <HeaderLink href="https://arvi.dk" logo={Home}  alt="" />
-        <HeaderLink href="#prices" logo={Prices}  alt="" />
-        <HeaderLink href="#services" logo={Services}  alt="" />
-        <HeaderLink href="#support" logo={Support}  alt="" />
-        <HeaderLink href="#marketing" logo={Marketing}  alt="" />
-        <HeaderLink href="#contact" logo={Contact}  alt="" />
+        <HeaderLink href="https://arvi.dk" text="arvi"  alt="" />
+        <HeaderLink id="menu" text="Menu" />
+        <Navbar />
     </header>
 )

@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.index-hero{
+.hero{
     
     width: 100%;
     margin: 0;
@@ -20,9 +20,32 @@
     transition: 500ms ease-in-out;
     box-sizing: border-box;
 }
+.herobox{
+    display: none;
+}
 
-.index__herobox{
+.herolinks{
     display: flex;
+    flex-direction: column;
+    color: #1AD970;
     align-items: center;
-    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.herlinks__a{
+    margin: 0.6em 0;
+}
+
+@media screen and (min-width: 1000px){
+    .herobox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .herolinks{
+        display: none;
+    }
+
 }
