@@ -3,10 +3,10 @@ import './Header.modules.css';
 import HeaderLink from './Header-link';
 import Navbar from '../../components/Navbar/Navbar';
 
-export default () => (
+function Header() {
     useEffect(() => {
         function OpenCloseMenu() {
-            if(document.querySelector('#menu').innerText == 'Menu'){
+            if(document.querySelector('#menu').innerText === 'Menu'){
                 document.querySelector('.nav').className = 'open'
                 document.querySelector('#menu').innerHTML = 'Luk Menu'
             }else{
@@ -16,11 +16,14 @@ export default () => (
         }
     
         document.querySelector('#menu').addEventListener('click', OpenCloseMenu);
-      }, []),
+    }, [])
+    return(
+        <header className="header">
+            <HeaderLink href="https://arvi.dk" text="arvi"  alt="" />
+            <HeaderLink id="menu" text="Menu" />
+            <Navbar />
+        </header>
+    )
+}
 
-    <header className="header">
-        <HeaderLink href="https://arvi.dk" text="arvi"  alt="" />
-        <HeaderLink id="menu" text="Menu" />
-        <Navbar />
-    </header>
-)
+export default Header;

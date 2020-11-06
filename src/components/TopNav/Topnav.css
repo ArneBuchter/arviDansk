@@ -1,0 +1,20 @@
+.topnav{
+    position: fixed;
+    width: 60vw;
+    margin-left: 10vw;
+    z-index: 10;
+}
+
+.topnav__ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav__li{
+    list-style: none;
+}
+
+.topnav__a{
+    text-decoration: none;
+    color: #8C0C00;
+}

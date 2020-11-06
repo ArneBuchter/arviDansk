@@ -2,8 +2,8 @@ import React from 'react';
 import './Hero.modules.css';
 import SiteInfo from '../Site-info/SiteInfo';
 import ServiceCard from '../Service-card/ServiceCard';
-import Intro from '../Intro/Intro';
 import ScrollDown from '../Scroll-down/ScrollDown';
+import { Link } from 'react-router-dom';
 
 export default () => (
     <div className="relative">
@@ -13,9 +13,9 @@ export default () => (
                 <ServiceCard heading="Eget medie" text="Er du journalist og ønsker du at starte et niche medie med både åben side og betalingsside så ring for mere info." />
             </section>
             <section className="herolinks">
-                <a className="herlinks__a">Om os</a>
-                <a className="herlinks__a">Produkter</a>
-                <a className="herlinks__a">Referencer</a>
+                <Link to="/About"><p className="herlinks__a">Om os</p></Link>
+                <Link to="/Products"><p className="herlinks__a">Produkter</p></Link>
+                <Link to="/References"><p className="herlinks__a">Referencer</p></Link>
             </section>
         </div>
         <SiteInfo href="#about" id="welcome" name="Velkommen" text="Hjemmesider til alle" />
