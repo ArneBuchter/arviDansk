@@ -1,0 +1,35 @@
+.SingleProduct__wrapper{    
+    width: 90%;
+    margin: 7rem auto 5rem auto; 
+    border-radius: 15px;
+    border: solid 1px grey;
+    background-color: rgba(240, 240, 240, 0.7);
+    transition: ease 500ms;
+}
+
+.SingleProduct__heading{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.SingleProduct__text{
+    padding: 1rem;
+}
+
+.SingleProduct__img{
+    width: 20em;
+}
+
+.SingleProduct__h2{
+    text-decoration: none;
+    color: black;
+}
+
+.SingleProduct__a{
+    text-decoration: none;
+}
+
+.picturesection{
+    padding: 1em;
+    text-decoration: none;
+}

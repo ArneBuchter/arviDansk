@@ -1,0 +1,17 @@
+.References__wrapper{    
+    width: 90%;
+    margin: 7rem auto 5rem auto; 
+    border-radius: 15px;
+    border: solid 1px grey;
+    background-color: rgba(240, 240, 240, 0.7);
+    transition: ease 500ms;
+}
+
+.References__heading{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.References__text{
+    padding: 1rem;
+}

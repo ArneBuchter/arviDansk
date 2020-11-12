@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Products from './components/Products/Products';
-import References from './components/References/References';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
  
@@ -20,7 +20,7 @@ function App() {
               <Route path="/" exact component={Home} />
               <Route path="/About" component={About} />
               <Route path="/Products" component={Products} />
-              <Route path="/References" component={References} />
+              <Route path="/Contact" component={Contact} />
             </Switch>
             <Footer />
           </section>

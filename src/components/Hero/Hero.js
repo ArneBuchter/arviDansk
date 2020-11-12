@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 export default () => (
     <div className="relative">
         <div className="hero" id="home">
-            <section className="herobox">
+            <Link to="/Products" className="herobox">
                 <ServiceCard heading="Arvi Ready" text="Få dig en ny, tidssvarende og Teknisk Seo optimeret hjemmeside fra kun 900 kroner i oprettelse og 300 kroner om måneden." />
                 <ServiceCard heading="Eget medie" text="Er du journalist og ønsker du at starte et niche medie med både åben side og betalingsside så ring for mere info." />
-            </section>
+            </Link>
             <section className="herolinks">
                 <Link to="/About"><p className="herlinks__a">Om os</p></Link>
                 <Link to="/Products"><p className="herlinks__a">Produkter</p></Link>

@@ -16,7 +16,17 @@ function Header() {
         }
     
         document.querySelector('#menu').addEventListener('click', OpenCloseMenu);
+
+        function closeMenu(e){
+            if(e.target.classList.contains('nav__link')){
+                document.querySelector('.open').className = 'nav'
+                document.querySelector('#menu').innerHTML = 'Menu'
+            }
+        }
+
+        document.querySelector('.nav__list').addEventListener('click', closeMenu);
     }, [])
+
     return(
         <header className="header">
             <HeaderLink href="https://arvi.dk" text="arvi"  alt="" />
